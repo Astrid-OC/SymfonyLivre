@@ -1,0 +1,13 @@
+{% extends "base.html.twig"%}
+
+{% block body %}
+
+<h1>Mes livres<h1>
+
+{% for item in books %}
+
+    <p>{{item.title}}</p>
+    
+{% endfor %}
+
+{% endblock %}
